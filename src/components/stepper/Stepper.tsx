@@ -45,6 +45,9 @@ const MUIStepper = styled(Stepper, {
   "& svg circle": {
     r: 16,
   },
+  "& .Mui-active": {
+    backgound: "#fff",
+  },
   "& .MuiStep-root.Mui-active": {
     background: "#fff",
   },
@@ -75,9 +78,7 @@ export const HorizontalStepper: React.FC<IProps> = ({ stepsData }) => {
   const handleNext = () => {
     const newActiveStep =
       isLastStep() && !allStepsCompleted()
-        ? // It's the last step, but not all steps have been completed,
-          // find the first step that has been completed
-          stepsData.findIndex((step, i) => !(i in completed))
+        ? stepsData.findIndex((step, i) => !(i in completed))
         : activeStep + 1;
     setActiveStep(newActiveStep);
   };
@@ -93,8 +94,6 @@ export const HorizontalStepper: React.FC<IProps> = ({ stepsData }) => {
   const handleComplete = () => {
     const newCompleted = completed;
     newCompleted[activeStep] = false;
-    //setCompleted(newCompleted);
-    //handleNext();
   };
 
   const handleReset = () => {
