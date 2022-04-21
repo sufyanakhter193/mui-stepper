@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EAEDED;
+}
+
+.App {
+  text-align: center;
+}
+
+/*.css-j5w0w9-MuiStepConnector-root {
+  -webkit-flex: none!important;
+  -ms-flex: none!important;
+  flex: none!important;
+}
+
+.css-z7uhs0-MuiStepConnector-line {
+  display: none!important;
+  border-top-style: none!important;
+  border-top-width: 0px!important;
+}
+
+.css-1bw0nnu-MuiStep-root {
+  background-color: #f4f5f7;
+  margin: 2px;
+  width: 33%;
+  padding: 1rem!important;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  width: 2rem!important;
+  height: 2rem!important;
+  margin-right: 8px;
+  font-weight: 500;
+  color: #D6EAF8!important;
+}
+
+.css-117w1su-MuiStepIcon-text {
+  fill: #4c9aff!important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #4c9aff!important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active .css-117w1su-MuiStepIcon-text {
+  fill: #fff!important;
+}
+
+.css-qivjh0-MuiStepLabel-label.Mui-active {
+  color: #4c9aff!important;
+  font-weight: 500;
+}
+
+svg circle {
+  r: 16!important;
+}
+
+.Mui-active {
+  background-color: #fff;
+}
+
+.css-1bw0nnu-MuiStep-root .Mui-active {
+  background-color: #fff;
+}*/
