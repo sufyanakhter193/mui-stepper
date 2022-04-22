@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import { HorizontalStepper } from "./stepper/Stepper";
 import { ISteps } from "./interfaces";
+import { MUICard } from "./card/Card";
 
 const steps: ISteps[] = [
   { id: 1, title: "Basic Info", subTitle: "Add Basic Information" },
@@ -19,7 +20,8 @@ export const Main = () => {
 
   return (
     <Grid container>
-      <HorizontalStepper stepsData={stepsData} />;
+      <HorizontalStepper stepsData={stepsData} />
+      <MUICard />
     </Grid>
   );
 };
